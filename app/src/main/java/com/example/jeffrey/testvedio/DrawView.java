@@ -14,10 +14,7 @@ public class DrawView extends SurfaceView {
     public DrawView(Context context) {
         super(context);
         bp = BitmapFactory.decodeResource(getResources(), R.drawable.floating110); //設定圖片來源(此處使用預設的圖片)
-//        /* This call is necessary, or else the
-//         * draw method will not be called.
-//         */
-        setWillNotDraw(false);
+        setWillNotDraw(false);    // This call is necessary, or else the draw method will not be called.
     }
     public void onDraw(Canvas canvas){
         canvas.drawBitmap(bp, x, y, textPaint);
