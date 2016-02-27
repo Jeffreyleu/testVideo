@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    >
+    <item android:drawable="@drawable/floating0" android:duration="30"></item>
+    <item android:drawable="@drawable/floating10" android:duration="30"></item>
+    <item android:drawable="@drawable/floating20" android:duration="30"></item>
+    <item android:drawable="@drawable/floating30" android:duration="30"></item>
+    <item android:drawable="@drawable/floating40" android:duration="30"></item>
+    <item android:drawable="@drawable/floating50" android:duration="30"></item>
+    <item android:drawable="@drawable/floating60" android:duration="30"></item>
+    <item android:drawable="@drawable/floating70" android:duration="30"></item>
+    <item android:drawable="@drawable/floating80" android:duration="30"></item>
+    <item android:drawable="@drawable/floating90" android:duration="30"></item>
+    <item android:drawable="@drawable/floating100" android:duration="30"></item>
+    <item android:drawable="@drawable/floating110" android:duration="30"></item>
+    <item android:drawable="@drawable/floating120" android:duration="30"></item>
+    <item android:drawable="@drawable/floating130" android:duration="30"></item>
+    <item android:drawable="@drawable/floating140" android:duration="30"></item>
+    <item android:drawable="@drawable/floating150" android:duration="30"></item>
+    <item android:drawable="@drawable/floating160" android:duration="30"></item>
+    <item android:drawable="@drawable/floating170" android:duration="30"></item>
+    <item android:drawable="@drawable/floating180" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_170" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_160" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_150" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_140" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_130" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_120" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_110" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_100" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_90" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_80" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_70" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_60" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_50" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_40" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_30" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_20" android:duration="30"></item>
+    <item android:drawable="@drawable/floating_10" android:duration="30"></item>
+</animation-list>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/activity_main2_layout"
+    >
+    <RelativeLayout
+        android:id="@+id/aa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bb">
+
+        <FrameLayout
+            android:id="@+id/camera_preview"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+        </FrameLayout>
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timer"
+            android:scaleType="fitCenter"
+            android:layout_alignParentStart="false"
+            android:textSize="35dp"
+            android:textColor="#f30e0e" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/bb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:layout_marginTop="-160dp"
+        android:layout_above="@+id/aa">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button_change"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_camera_front_white_48dp"
+            android:layout_alignParentRight="true"
+            android:minWidth="50dp"
+            android:minHeight="81dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_start"
+            android:src="@drawable/floating0"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:minHeight="80dp"
+            android:minWidth="80dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button_back"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_keyboard_backspace_white_48dp"
+            android:layout_alignParentLeft="true"
+            android:minWidth="50dp"
+            android:minHeight="81dp" />
+
+    </RelativeLayout>
+</LinearLayout>

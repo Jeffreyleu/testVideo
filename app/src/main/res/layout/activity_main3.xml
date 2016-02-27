@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/aa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bb">
+
+        <SurfaceView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/surface"
+            android:layout_weight="2.36"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button_play"
+            android:background="@android:color/transparent"
+            android:visibility="invisible"
+            android:src="@drawable/ic_play_circle_filled_white_48dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bb"
+        android:layout_marginTop="-200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPercentage"
+            android:textSize="20dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="#ffffff"
+            android:layout_toRightOf="@+id/progressBar"
+            android:layout_alignBottom="@+id/progressBar"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_centerVertical="true"
+            android:minWidth="280dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/aa"
+        android:layout_below="@+id/cc"
+        android:layout_marginTop="-80dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_yes"
+            android:src="@drawable/ic_undo_white_48dp"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_send"
+            android:src="@drawable/ic_send_white_48dp"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_upload"
+            android:background="@android:color/transparent"
+            android:scaleType="center"
+            android:src="@drawable/ic_file_upload_white_48dp"
+            android:layout_alignTop="@+id/button_yes"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="43dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
